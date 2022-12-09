@@ -1,0 +1,109 @@
+.customNav {
+  background-color: #E8C4C4;
+}
+
+.mainContainer {
+  padding-bottom: 3%;
+}
+
+.mbr-fullscreen {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  height: 100vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.home {
+  background-image: url('../images/banner.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mbr-fullscreen .mbr-overlay {
+  min-height: 100vh;
+}
+
+.mbr-overlay {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.btnAddToCart {
+  width: 100%;
+}
+
+.labelTopSellers {
+  margin-bottom: 1%;
+}
+
+.divFeaturedProduct {
+  margin-top: 3%;
+  padding-top: 1%;
+}
+
+.labelFeaturedProduct {
+  margin-bottom: 1%;
+}
+
+.categories {
+  max-width:100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out 0s;
+  -webkit-transition: transform 0.2s ease-in-out 0s;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.categories:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.payment {
+  border: 1px solid;
+  min-height: 550px;
+  padding-top: 2%;
+  border-radius: 2%;
+}
+
+.payment-info {
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  min-height: 500px;
+  padding-top: 2%;
+  border-radius: 2%;
+}
+
+.payment-row {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.home-category-card {
+  background-image: url('../images/categories.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
+.home-seller-card {
+  background-image: url('../images/vendor.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
